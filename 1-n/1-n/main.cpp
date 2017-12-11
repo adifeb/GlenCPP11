@@ -1,6 +1,6 @@
 //
 //  main.cpp
-//  1-100div5
+//  1-n
 //
 //  Created by aditya on 12/10/17.
 //  Copyright © 2017 aditya. All rights reserved.
@@ -11,19 +11,15 @@ using namespace std;
 int main()
 {
     //declare
-    int i,num;
+    int num;
     //input
-    cout<<"enter the last number:";
+    cout<<"enter the number:";
     cin>>num;
-    cout<<"the numbers divisible by 5:"<<endl;
-    
     //process
     //output
-    for(i=1;i<num;i++)
+    for(int i=1;i<num;i++)
     {
-        if(i%5==0)
-            cout<<i<<" ";
+        cout<<i<<endl;
     }
     return 0;
 }
-
