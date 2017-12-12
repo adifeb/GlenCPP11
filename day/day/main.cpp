@@ -11,6 +11,7 @@ using namespace std;
 int main()
 {
     int ch;
+    // Tested and found out that switch cannot be used on strings.. So changed to numbers
     cout<<"enter the case below written in the code:";
     cin>>ch;
     switch(ch)

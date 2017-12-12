@@ -14,7 +14,7 @@ int main()
     cout<<"enter the number:";
     cin>>n;
    int rev=0;
-    while(n!=0)
+    while(n>0)
     {
         n1=n%10;
         rev=rev*10+n1;
