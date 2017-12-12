@@ -10,16 +10,16 @@
 using namespace std;
 int main()
 {
-    int n,n1;
+    int num,rem;
     cout<<"enter the number:";
-    cin>>n;
-   int rev=0;
-    while(n>0)
+    cin>>num;
+   int newnum=0;
+    while(num>0)
     {
-        n1=n%10;
-        rev=rev*10+n1;
-        n=n/10;
+        rem=num%10;
+        newnum=newnum*10+rem;
+        num=num/10;
      }
-    cout<<"reverse of number is:"<<rev<<endl;
+    cout<<"reverse of number is:"<<newnum<<endl;
     return 0;
 }
