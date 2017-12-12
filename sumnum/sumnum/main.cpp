@@ -10,15 +10,15 @@
 using namespace std;
 int main()
 {
-    int n,n1;
+    int num,rem;
     cout<<"enter the number:";
-    cin>>n;
+    cin>>num;
     int sum=0;
-    while(n>0)
+    while(num>0)
     {
-        n1=n%10;
-        sum=sum+n1;
-        n=n/10;
+        rem=num%10;
+        sum=sum+rem;
+        num=num/10;
     }
     cout<<"sum of the digits is:"<<sum<<endl;
     return 0;
