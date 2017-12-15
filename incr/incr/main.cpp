@@ -15,7 +15,7 @@ int main()
     cin>>n;
     cout<<"enter an increment:";
     cin>>m;
-    for(i=0;i<n;i+=m)
+    for(i=0;i<n;i+=2)
     {
         cout<<i<<" ";
     }
