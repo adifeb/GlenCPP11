@@ -16,9 +16,6 @@ int main()
     int total=e1+e2+e3+e4+e5;
     cout<<"total marks of the student is:"<<total<<endl;
     int avg=(e1+e2+e3+e4+e5)/5;
- 
-        cout <<"Student has Passed"<<endl;
- 
         if(avg>80)
             cout<<"you have passed with Distinction"<<endl;
         else if(avg>70)
@@ -29,6 +26,5 @@ int main()
         cout<<"you have passed third class"<<endl;
     else
         cout<<"you have failed"<<endl;
-   
-        
+    cout<<"the average is:"<<avg;
 }
