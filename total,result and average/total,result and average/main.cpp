@@ -22,11 +22,11 @@ int main()
         if(avg>80)
             cout<<"you have passed with Distinction"<<endl;
         else if(avg>70)
-            cout<<"you have passed in first class"<<endl;
+            cout<<"you have passed with first class"<<endl;
     else if(avg>60)
-        cout<<"you are progressing"<<endl;
+        cout<<"yyou have passed second class"<<endl;
     else  if(avg>50)
-        cout<<"have to work hard"<<endl;
+        cout<<"you have passed third class"<<endl;
     else
         cout<<"you have failed"<<endl;
    
