@@ -23,7 +23,7 @@ int main()
         slab2=0;
         slab3=0;
     }
-     else if(units<=100||units>=300)
+     else if(units>=100||units<=300)
     {
         slab1=100;
         slab2=units-100;
