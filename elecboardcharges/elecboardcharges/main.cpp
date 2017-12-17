@@ -33,7 +33,7 @@ int main()
          slab1=100;
          slab2=200;
          slab3=units-300;
-     };
+     }
     int cost= (0.4*slab1+0.5*slab2+0.6*slab3)+50;
     cout<<"the total cost is:"<<cost;
     return 0;
