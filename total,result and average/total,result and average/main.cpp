@@ -16,15 +16,19 @@ int main()
     int total=e1+e2+e3+e4+e5;
     cout<<"total marks of the student is:"<<total<<endl;
     int avg=(e1+e2+e3+e4+e5)/5;
-    cout<<"average of all the 5 subjects are:"<<avg<<endl;
-    if(avg>80)
-        cout<<"you have passed 1st class"<<endl;
-    else if(avg>70)
-        cout<<"you have done well"<<endl;
+ 
+        cout <<"Student has Passed"<<endl;
+ 
+        if(avg>80)
+            cout<<"you have passed with Distinction"<<endl;
+        else if(avg>70)
+            cout<<"you have passed in first class"<<endl;
     else if(avg>60)
         cout<<"you are progressing"<<endl;
     else  if(avg>50)
         cout<<"have to work hard"<<endl;
     else
         cout<<"you have failed"<<endl;
+   
+        
 }
