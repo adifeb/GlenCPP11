@@ -17,26 +17,23 @@ int main()
     float units,slab1,slab2,slab3;
     cout<<"enter the units:";
     cin>>units;
-    if(units >100)
+    if(units <=100)
     {
        slab1 =units;
         slab2=0;
         slab3=0;
     }
-     else if(units>=100||units<=300)
+     else if(units>100||units<=300)
     {
         slab1=100;
         slab2=units-100;
         slab3=0;
     }
-      else if(units<=500)
-      {
-          slab1=100;
-          slab2=200;
-          slab3=units-300;
-      }
-     else
-        units=0;
+     else {
+         slab1=100;
+         slab2=200;
+         slab3=units-300;
+     };
     int cost= (0.4*slab1+0.5*slab2+0.6*slab3)+50;
     cout<<"the total cost is:"<<cost;
     return 0;
