@@ -16,7 +16,7 @@ int main()
     cin>>name1;// used cin instead of gets because it is unsafe
     cout<<"enter name2:";
     cin>>name2;
-    for(int i=0;name1[i]!='/0';i++) || for( i=0; name2[i]!=0;i++)
+    for(int i=0;name1[i]!='/0'|| name2[i]!='/0';i++)
     {
         if(name1[i]==name2[i])
             flag=1;
@@ -26,7 +26,7 @@ int main()
     }
     if(flag==1)
         cout<<"they are equal"<<endl;
-    else
+     else
         cout<<"they are not equal"<<endl;
     return 0;
 }
