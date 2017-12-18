@@ -13,12 +13,10 @@ int main()
     char name1[20],name2[20];
     cout<<"enter name1:";
     cin>>name1;
-    cout<<"enter name2:";
-    cin>>name2;
     for(int i=0;name1[i]!='/0';i++)
     {
         name2[i]=name1[i];
     }
-    cout<<name2[i];
+    cout<<name2;
     return 0;
 }
