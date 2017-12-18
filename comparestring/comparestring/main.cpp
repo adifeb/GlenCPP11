@@ -11,16 +11,22 @@ using namespace std;
 int main()
 {
     char name1[20],name2[20];
+    bool flag=1;
     cout<<"enter name1:";
-    gets(name1);
+    cin>>name1;// used cin instead of gets because it is unsafe
     cout<<"enter name2:";
-    gets(name2);
+    cin>>name2;
     for(int i=0;name1[i]!='/0';i++)
     {
-        if(name1==name2)
-            cout<<"they are equal";
+        if(name1[i]==name2[i])
+            flag=1;
         else
-            cout<<"they are not equal";
+            flag=0;
+        break;
     }
+    if(flag==1)
+        cout<<"they are equal";
+    else
+        cout<<"they are not equal"<<endl;
     return 0;
 }
