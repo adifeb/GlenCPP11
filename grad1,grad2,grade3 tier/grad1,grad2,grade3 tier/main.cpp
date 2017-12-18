@@ -36,6 +36,6 @@ int main()
         hr=0.15*sal;
      }
     tot=da+hr+sal;
-    cout<<"the total salary is:"<<tot;
+    cout<<"the pay slip of the user is:"<<name<<sal<<da<<hr<<tot;
     return 0;
 }
