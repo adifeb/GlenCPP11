@@ -17,5 +17,8 @@ int main()
     cin>>name2;
     for(int i=0;name1[i]!='/0';i++)
     {
-        
+        name2[i]=name1[i];
+    }
+    cout<<name2[i];
+    return 0;
 }
