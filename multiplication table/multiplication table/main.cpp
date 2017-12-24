@@ -2,7 +2,7 @@
 //  main.cpp
 //  multiplication table
 //
-//  Created by aditya on 12/12/17.
+//  Created by aditya on 12/24/17.
 //  Copyright © 2017 aditya. All rights reserved.
 //
 
@@ -10,13 +10,11 @@
 using namespace std;
 int main()
 {
-    int n;
-    cout<<"enter the value for printing the multiplication table:";
+    int n,i;
+    cout<<"enter the the value to print the multiplication table:";
     cin>>n;
-    cout<<"the multiplication table of "<<n<<":"<<" " ;
-    for(int i=0;i<=15;i++)
-    {
+    cout<<"multiplication table of n:";
+    for(i=1;i<15;i++)
         cout<<n<<"*"<<i<<"="<<n*i<<endl;
-    }
-    return 0;
+return 0;
 }
