@@ -14,12 +14,12 @@ int main()
 {
     char name[3],i,oddstr[10];
     cout<<"enter the name:";
-    for(i=0;i<10;i+=2)
+    for(i=0;i<10;i++)
     {
         cin>>name[i];
     }
     cout<<name;
-    for(i=0;i<10;i++)
+    for(i=0;i<10;i+=2)
     {
         oddstr[i]=toupper(name[i]);
     }
