@@ -11,12 +11,7 @@ using namespace std;
 int main()
 {
     int i, evencnt=0, oddcnt=0;
-    int even[5], odd[5],num;
-    for(i=0;i<10;i++)
-    {
-    cout<<"enter the numbers:";
-    cin>>num;
-    }
+    int even[5], odd[5];
     for (i=0;i<10;i++)
     {
         if (i%2==0)
