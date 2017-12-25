@@ -16,6 +16,6 @@ int main()
     cout<<"enter your name:";
     cin>>name;
     strcpy(name2,name);
-    cout<<"the copied string is:"<<name2<<endl;;
+    cout<<"the copied string is:"<<name2<<endl;
     return 0;
 }
