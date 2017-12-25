@@ -12,15 +12,16 @@
 using namespace std;
 int main()
 {
-    char name[10],i,oddstr[10];
+    char name[3],i,oddstr[10];
     cout<<"enter the name:";
-    for(i=0;i<10;i++)
+    for(i=0;i<10;i+=2)
     {
         cin>>name[i];
     }
+    cout<<name;
     for(i=0;i<10;i++)
     {
         oddstr[i]=toupper(name[i]);
     }
-    cout<<"the odd number in uppercase is:"<<oddstr[i];
+    cout<<"the odd number in uppercase is:"<<oddstr;
 }
